@@ -1,0 +1,48 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+.dropdown-item {
+    color: white;
+}
+
+.search-input {
+    background-color: #151f30;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.select,
+.slider-radio {
+    color: white;
+}
+
+
+.slider-radio input[type=radio] {
+    display: none;
+}
+
+
+.load-more-container {
+    text-align: center;
+    margin: 10px 0 40px;
+}
+
+.footer,
+.footer a {
+    color: white;
+}
+
+.footer__nav a {
+    display: block;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+.card-text {
+    display: -webkit-box !important ;
+    -webkit-line-clamp: 1 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+}
