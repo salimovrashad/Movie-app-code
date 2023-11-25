@@ -1,0 +1,51 @@
+.dropdown-item {
+    color: white;
+}
+
+.search-input {
+    background-color: #151f30;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.select,
+.slider-radio {
+    color: white;
+}
+
+
+.slider-radio input[type=radio] {
+    display: none;
+}
+
+.card {
+    margin: 10px;
+    padding: 0;
+    width: 192px;
+    height: 450px;
+}
+
+.row--grid .card {
+    background-color: #131720;
+    color: white;
+    border: 0cap;
+}
+
+.load-more-container {
+    text-align: center;
+    margin: 10px 0 40px;
+}
+
+.footer,
+.footer a {
+    color: white;
+}
+
+.footer__nav a {
+    display: block;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
