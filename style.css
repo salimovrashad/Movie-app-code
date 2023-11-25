@@ -77,3 +77,31 @@ body::-webkit-scrollbar {
     border-radius: 5px;
     background: rgb(0, 0, 172);
   }
+.bg-1{
+    background: url(https://img.freepik.com/free-vector/home-movie-background-with-elements-popcorn-drinks_1419-1857.jpg?w=996&t=st=1700952950~exp=1700953550~hmac=0077238adf72c6f9881aaef8b301f7798a584330c89341b7b2d593a59b036341);
+    /* background: url(https://img.freepik.com/free-photo/movie-background-collage_23-2149876003.jpg?w=1060&t=st=1700952691~exp=1700953291~hmac=302613333c4ec8e1293dd095078bc8abd75cf669b8ab751d4e55466534aa45c8); */
+    background-position: center;
+    background-size: cover;
+}
+.bg-2{
+    background: url(https://img.freepik.com/free-vector/film-strip-background-with-clapper-board_1017-33456.jpg?w=1380&t=st=1700952889~exp=1700953489~hmac=563301e2712860371fb8c2f8e68a9908b138bb2bcf963a0c9a79fcff783c4735);
+    background-position: center;
+    background-size: cover;
+}
+.bg-3{
+    background: url(https://img.freepik.com/free-photo/movie-background-collage_23-2149876003.jpg?w=1060&t=st=1700952691~exp=1700953291~hmac=302613333c4ec8e1293dd095078bc8abd75cf669b8ab751d4e55466534aa45c8);
+    background-position: center;
+    background-size: cover;
+}
+
+.custom-card {
+    background-color: #151f30;
+  }
+
+.custom-card .card-text {
+    color: white;
+  }
+  .white-divider {
+    border-top: 1px solid white;
+ 
+}
