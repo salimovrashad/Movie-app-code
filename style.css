@@ -5,6 +5,23 @@
     color: white;
 }
 
+::-webkit-input-placeholder{
+    color: aliceblue !important;
+}
+input{
+    color: aliceblue !important;
+}
+
+nav a, section a{
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+a:hover{
+    color: #1a5fd5 !important;
+}
 .search-input {
     background-color: #151f30;
     color: white;
@@ -19,11 +36,9 @@ li {
     color: white;
 }
 
-
 .slider-radio input[type=radio] {
     display: none;
 }
-
 
 .load-more-container {
     text-align: center;

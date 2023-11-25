@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -26,19 +27,20 @@
                 <a class="nav-link text-light" href="#">Catalog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled text-light" aria-disabled="true">Pricing Plans</a>
+                <a class="nav-link text-light" href="#">Pricing Plans</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled text-light" aria-disabled="true">Live</a>
+                <a class="nav-link text-light" href="#">Live</a>
               </li>
             </ul>
         </div>
         <div class="d-flex">
             <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          </form>
-  
-          <button>SIGN IN</button></div>
+                <input style="background-color: #151f30;" class="form-control me-2 border-0 rounded-4" type="search" placeholder="I'm looking for..." aria-label="Search">
+            </form>
+
+            <a href="">Sign in <i class="las la-sign-in-alt ms-1"></i></a>
+        </div>
         </div>
     </nav>
 
@@ -46,7 +48,7 @@
         <div class="d-flex text-light">
             <div class="dropdown me-3">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                  All genres
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -57,7 +59,7 @@
             </div>
             <div class="dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                  All the years
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -67,10 +69,10 @@
                 </ul>
             </div>
         </div>
-        <div class="d-flex">
-            <button>Featured</button>
-            <button>Popular</button>
-            <button>Newest</button>
+        <div class="d-flex p-2 rounded" style="background-color: #131720;">
+            <a href="" style="background-color: #151f30;" class="border-0 rounded px-2">Featured</a>
+            <a href="" style="background-color: #151f30;" class="border-0 mx-2 rounded px-2">Popular</a>
+            <a href="" style="background-color: #151f30;" class="border-0 rounded px-2">Newest</a>
         </div>
     </section>
 
