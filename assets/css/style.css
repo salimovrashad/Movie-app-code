@@ -1,5 +1,6 @@
 *{
     font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
 }
 .dropdown-item {
     color: white;
@@ -104,4 +105,13 @@ body::-webkit-scrollbar {
   .white-divider {
     border-top: 1px solid white;
  
+}
+
+#scroll-top{
+    display: flex;
+    float: right;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 35px;
 }
